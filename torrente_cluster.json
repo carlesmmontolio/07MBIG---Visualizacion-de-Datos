@@ -71,7 +71,8 @@
 				"vidus" : 10.243902439,
 				"hab_ppals" : 90.3225806452,
 				"hab_secund" : 0,
-				"hab_buides" : 9.67741935484
+				"hab_buides" : 9.67741935484,
+				"cluster" : 5
 			}
 		},
 		{
@@ -141,7 +142,8 @@
 				"vidus" : 4.40528634361,
 				"hab_ppals" : 83.6538461538,
 				"hab_secund" : 2.88461538462,
-				"hab_buides" : 14.4230769231
+				"hab_buides" : 14.4230769231,
+				"cluster" : 5
 			}
 		},
 		{
@@ -218,7 +220,8 @@
 				"vidus" : 6.59340659341,
 				"hab_ppals" : 90.9090909091,
 				"hab_secund" : 0,
-				"hab_buides" : 9.09090909091
+				"hab_buides" : 9.09090909091,
+				"cluster" : 1
 			}
 		},
 		{
@@ -293,7 +296,8 @@
 				"vidus" : 8.47457627119,
 				"hab_ppals" : 96.0526315789,
 				"hab_secund" : 0,
-				"hab_buides" : 3.94736842105
+				"hab_buides" : 3.94736842105,
+				"cluster" : 3
 			}
 		},
 		{
@@ -375,7 +379,8 @@
 				"vidus" : 6.22222222222,
 				"hab_ppals" : 79.5081967213,
 				"hab_secund" : 4.91803278689,
-				"hab_buides" : 16.393442623
+				"hab_buides" : 16.393442623,
+				"cluster" : 5
 			}
 		},
 		{
@@ -450,7 +455,8 @@
 				"vidus" : 2.05761316872,
 				"hab_ppals" : 97.6470588235,
 				"hab_secund" : 0,
-				"hab_buides" : 2.35294117647
+				"hab_buides" : 2.35294117647,
+				"cluster" : 3
 			}
 		},
 		{
@@ -530,7 +536,8 @@
 				"vidus" : 4.60526315789,
 				"hab_ppals" : 89.0410958904,
 				"hab_secund" : 0,
-				"hab_buides" : 10.9589041096
+				"hab_buides" : 10.9589041096,
+				"cluster" : 5
 			}
 		},
 		{
@@ -607,7 +614,8 @@
 				"vidus" : 6.81818181818,
 				"hab_ppals" : 93.4579439252,
 				"hab_secund" : 3.73831775701,
-				"hab_buides" : 2.80373831776
+				"hab_buides" : 2.80373831776,
+				"cluster" : 3
 			}
 		},
 		{
@@ -691,7 +699,8 @@
 				"vidus" : 7.14285714286,
 				"hab_ppals" : 81.1594202899,
 				"hab_secund" : 0,
-				"hab_buides" : 18.8405797101
+				"hab_buides" : 18.8405797101,
+				"cluster" : 1
 			}
 		},
 		{
@@ -770,7 +779,8 @@
 				"vidus" : 5.60344827586,
 				"hab_ppals" : 87.7659574468,
 				"hab_secund" : 0,
-				"hab_buides" : 11.7021276596
+				"hab_buides" : 11.7021276596,
+				"cluster" : 1
 			}
 		},
 		{
@@ -857,7 +867,8 @@
 				"vidus" : 10.2409638554,
 				"hab_ppals" : 95.6834532374,
 				"hab_secund" : 0,
-				"hab_buides" : 4.31654676259
+				"hab_buides" : 4.31654676259,
+				"cluster" : 5
 			}
 		},
 		{
@@ -938,7 +949,8 @@
 				"vidus" : 6.32411067194,
 				"hab_ppals" : 91.2408759124,
 				"hab_secund" : 0,
-				"hab_buides" : 8.75912408759
+				"hab_buides" : 8.75912408759,
+				"cluster" : 1
 			}
 		},
 		{
@@ -1022,7 +1034,8 @@
 				"vidus" : 6.14035087719,
 				"hab_ppals" : 81.9047619048,
 				"hab_secund" : 5.71428571429,
-				"hab_buides" : 13.3333333333
+				"hab_buides" : 13.3333333333,
+				"cluster" : 1
 			}
 		},
 		{
@@ -1111,7 +1124,8 @@
 				"vidus" : 3.83693045564,
 				"hab_ppals" : 94.8529411765,
 				"hab_secund" : 0,
-				"hab_buides" : 5.14705882353
+				"hab_buides" : 5.14705882353,
+				"cluster" : 5
 			}
 		},
 		{
@@ -1289,7 +1303,8 @@
 				"vidus" : 12.1739130435,
 				"hab_ppals" : 80.7339449541,
 				"hab_secund" : 7.33944954128,
-				"hab_buides" : 11.9266055046
+				"hab_buides" : 11.9266055046,
+				"cluster" : 4
 			}
 		},
 		{
@@ -1406,7 +1421,8 @@
 				"vidus" : 14.1666666667,
 				"hab_ppals" : 68.4931506849,
 				"hab_secund" : 23.2876712329,
-				"hab_buides" : 8.21917808219
+				"hab_buides" : 8.21917808219,
+				"cluster" : 4
 			}
 		},
 		{
@@ -1492,7 +1508,8 @@
 				"vidus" : 6.37450199203,
 				"hab_ppals" : 80.6722689076,
 				"hab_secund" : 0,
-				"hab_buides" : 20.1680672269
+				"hab_buides" : 20.1680672269,
+				"cluster" : 3
 			}
 		},
 		{
@@ -1605,7 +1622,8 @@
 				"vidus" : 1.35135135135,
 				"hab_ppals" : 72.8571428571,
 				"hab_secund" : 0,
-				"hab_buides" : 27.1428571429
+				"hab_buides" : 27.1428571429,
+				"cluster" : 4
 			}
 		},
 		{
@@ -1848,7 +1866,8 @@
 				"vidus" : 6.87022900763,
 				"hab_ppals" : 82.2580645161,
 				"hab_secund" : 7.25806451613,
-				"hab_buides" : 9.67741935484
+				"hab_buides" : 9.67741935484,
+				"cluster" : 4
 			}
 		},
 		{
@@ -1935,7 +1954,8 @@
 				"vidus" : 7.2,
 				"hab_ppals" : 76,
 				"hab_secund" : 0,
-				"hab_buides" : 24
+				"hab_buides" : 24,
+				"cluster" : 5
 			}
 		},
 		{
@@ -2017,7 +2037,8 @@
 				"vidus" : 2.5974025974,
 				"hab_ppals" : 100,
 				"hab_secund" : 0,
-				"hab_buides" : 0
+				"hab_buides" : 0,
+				"cluster" : 2
 			}
 		},
 		{
@@ -2097,7 +2118,8 @@
 				"vidus" : 5.58659217877,
 				"hab_ppals" : 82.5,
 				"hab_secund" : 5.625,
-				"hab_buides" : 11.25
+				"hab_buides" : 11.25,
+				"cluster" : 4
 			}
 		},
 		{
@@ -2191,7 +2213,8 @@
 				"vidus" : 10.0543478261,
 				"hab_ppals" : 82.183908046,
 				"hab_secund" : 1.14942528736,
-				"hab_buides" : 16.091954023
+				"hab_buides" : 16.091954023,
+				"cluster" : 4
 			}
 		},
 		{
@@ -2276,7 +2299,8 @@
 				"vidus" : 1.34770889488,
 				"hab_ppals" : 91.3043478261,
 				"hab_secund" : 0,
-				"hab_buides" : 8.69565217391
+				"hab_buides" : 8.69565217391,
+				"cluster" : 3
 			}
 		},
 		{
@@ -2361,7 +2385,8 @@
 				"vidus" : 12.4031007752,
 				"hab_ppals" : 89.6907216495,
 				"hab_secund" : 0,
-				"hab_buides" : 10.3092783505
+				"hab_buides" : 10.3092783505,
+				"cluster" : 1
 			}
 		},
 		{
@@ -2455,7 +2480,8 @@
 				"vidus" : 14.0401146132,
 				"hab_ppals" : 93.5064935065,
 				"hab_secund" : 0,
-				"hab_buides" : 5.84415584416
+				"hab_buides" : 5.84415584416,
+				"cluster" : 4
 			}
 		},
 		{
@@ -2544,7 +2570,8 @@
 				"vidus" : 3.95480225989,
 				"hab_ppals" : 93.3823529412,
 				"hab_secund" : 0,
-				"hab_buides" : 6.61764705882
+				"hab_buides" : 6.61764705882,
+				"cluster" : 3
 			}
 		},
 		{
@@ -2634,7 +2661,8 @@
 				"vidus" : 4.88372093023,
 				"hab_ppals" : 87.8947368421,
 				"hab_secund" : 2.63157894737,
-				"hab_buides" : 9.47368421053
+				"hab_buides" : 9.47368421053,
+				"cluster" : 2
 			}
 		},
 		{
@@ -2722,7 +2750,8 @@
 				"vidus" : 4.82954545455,
 				"hab_ppals" : 81.3793103448,
 				"hab_secund" : 5.51724137931,
-				"hab_buides" : 13.1034482759
+				"hab_buides" : 13.1034482759,
+				"cluster" : 5
 			}
 		},
 		{
@@ -2830,7 +2859,8 @@
 				"vidus" : 6.18279569892,
 				"hab_ppals" : 81.884057971,
 				"hab_secund" : 0,
-				"hab_buides" : 18.115942029
+				"hab_buides" : 18.115942029,
+				"cluster" : 4
 			}
 		},
 		{
@@ -2957,7 +2987,8 @@
 				"vidus" : 3.29341317365,
 				"hab_ppals" : 65.7894736842,
 				"hab_secund" : 0,
-				"hab_buides" : 33.6842105263
+				"hab_buides" : 33.6842105263,
+				"cluster" : 1
 			}
 		},
 		{
@@ -3038,7 +3069,8 @@
 				"vidus" : 0,
 				"hab_ppals" : 90.4109589041,
 				"hab_secund" : 0,
-				"hab_buides" : 9.58904109589
+				"hab_buides" : 9.58904109589,
+				"cluster" : 3
 			}
 		},
 		{
@@ -3124,7 +3156,8 @@
 				"vidus" : 7.80141843972,
 				"hab_ppals" : 76.6666666667,
 				"hab_secund" : 7.33333333333,
-				"hab_buides" : 15.3333333333
+				"hab_buides" : 15.3333333333,
+				"cluster" : 1
 			}
 		},
 		{
@@ -3222,7 +3255,8 @@
 				"vidus" : 5.05415162455,
 				"hab_ppals" : 77.4436090226,
 				"hab_secund" : 0,
-				"hab_buides" : 22.5563909774
+				"hab_buides" : 22.5563909774,
+				"cluster" : 3
 			}
 		},
 		{
@@ -3348,7 +3382,8 @@
 				"vidus" : 5.84269662921,
 				"hab_ppals" : 83,
 				"hab_secund" : 5.5,
-				"hab_buides" : 12
+				"hab_buides" : 12,
+				"cluster" : 1
 			}
 		},
 		{
@@ -3446,7 +3481,8 @@
 				"vidus" : 11.231884058,
 				"hab_ppals" : 68.3333333333,
 				"hab_secund" : 8.33333333333,
-				"hab_buides" : 23.8888888889
+				"hab_buides" : 23.8888888889,
+				"cluster" : 4
 			}
 		},
 		{
@@ -3553,7 +3589,8 @@
 				"vidus" : 4.89296636086,
 				"hab_ppals" : 86.6666666667,
 				"hab_secund" : 6.66666666667,
-				"hab_buides" : 6.66666666667
+				"hab_buides" : 6.66666666667,
+				"cluster" : 1
 			}
 		},
 		{
@@ -3652,7 +3689,8 @@
 				"vidus" : 0,
 				"hab_ppals" : 54.6239210851,
 				"hab_secund" : 0,
-				"hab_buides" : 45.3760789149
+				"hab_buides" : 45.3760789149,
+				"cluster" : 2
 			}
 		},
 		{
@@ -3741,7 +3779,8 @@
 				"vidus" : 1.77514792899,
 				"hab_ppals" : 100,
 				"hab_secund" : 0,
-				"hab_buides" : 0
+				"hab_buides" : 0,
+				"cluster" : 2
 			}
 		},
 		{
@@ -3859,7 +3898,8 @@
 				"vidus" : 10.4,
 				"hab_ppals" : 66.1654135338,
 				"hab_secund" : 6.76691729323,
-				"hab_buides" : 27.0676691729
+				"hab_buides" : 27.0676691729,
+				"cluster" : 4
 			}
 		},
 		{
@@ -3955,7 +3995,8 @@
 				"vidus" : 2.74599542334,
 				"hab_ppals" : 86.1538461538,
 				"hab_secund" : 2.05128205128,
-				"hab_buides" : 11.2820512821
+				"hab_buides" : 11.2820512821,
+				"cluster" : 2
 			}
 		},
 		{
@@ -4060,7 +4101,8 @@
 				"vidus" : 2.02312138728,
 				"hab_ppals" : 94.3089430894,
 				"hab_secund" : 2.43902439024,
-				"hab_buides" : 4.06504065041
+				"hab_buides" : 4.06504065041,
+				"cluster" : 2
 			}
 		},
 		{
@@ -4207,7 +4249,8 @@
 				"vidus" : 7.62711864407,
 				"hab_ppals" : 61.2359550562,
 				"hab_secund" : 3.37078651685,
-				"hab_buides" : 34.8314606742
+				"hab_buides" : 34.8314606742,
+				"cluster" : 5
 			}
 		},
 		{
@@ -4318,7 +4361,8 @@
 				"vidus" : 1.46341463415,
 				"hab_ppals" : 80.2469135802,
 				"hab_secund" : 13.5802469136,
-				"hab_buides" : 6.17283950617
+				"hab_buides" : 6.17283950617,
+				"cluster" : 2
 			}
 		},
 		{
@@ -4474,7 +4518,8 @@
 				"vidus" : 2.77777777778,
 				"hab_ppals" : 64.4444444444,
 				"hab_secund" : 21.1111111111,
-				"hab_buides" : 14.4444444444
+				"hab_buides" : 14.4444444444,
+				"cluster" : 2
 			}
 		},
 		{
@@ -4599,7 +4644,8 @@
 				"vidus" : 0,
 				"hab_ppals" : 54.6979865772,
 				"hab_secund" : 0,
-				"hab_buides" : 45.3020134228
+				"hab_buides" : 45.3020134228,
+				"cluster" : 2
 			}
 		},
 		{
@@ -4878,7 +4924,8 @@
 				"vidus" : 1.81818181818,
 				"hab_ppals" : 67.6691729323,
 				"hab_secund" : 18.7969924812,
-				"hab_buides" : 14.2857142857
+				"hab_buides" : 14.2857142857,
+				"cluster" : 2
 			}
 		},
 		{
@@ -5194,7 +5241,8 @@
 				"vidus" : 0.77821011673,
 				"hab_ppals" : 75.2212389381,
 				"hab_secund" : 15.0442477876,
-				"hab_buides" : 8.84955752212
+				"hab_buides" : 8.84955752212,
+				"cluster" : 4
 			}
 		},
 		{
@@ -5473,7 +5521,8 @@
 				"vidus" : 5.32915360502,
 				"hab_ppals" : 77.7027027027,
 				"hab_secund" : 14.8648648649,
-				"hab_buides" : 7.43243243243
+				"hab_buides" : 7.43243243243,
+				"cluster" : 4
 			}
 		},
 		{
@@ -5615,7 +5664,8 @@
 				"vidus" : 7.59878419453,
 				"hab_ppals" : 58.4758942457,
 				"hab_secund" : 22.5505443235,
-				"hab_buides" : 18.9735614308
+				"hab_buides" : 18.9735614308,
+				"cluster" : 2
 			}
 		},
 		{
@@ -5990,7 +6040,8 @@
 				"vidus" : 1.9801980198,
 				"hab_ppals" : 70.5298013245,
 				"hab_secund" : 24.5033112583,
-				"hab_buides" : 5.29801324503
+				"hab_buides" : 5.29801324503,
+				"cluster" : 2
 			}
 		},
 		{
@@ -6234,7 +6285,8 @@
 				"vidus" : 1.58501440922,
 				"hab_ppals" : 33.1707317073,
 				"hab_secund" : 55.243902439,
-				"hab_buides" : 11.5853658537
+				"hab_buides" : 11.5853658537,
+				"cluster" : 2
 			}
 		},
 		{
@@ -6862,7 +6914,8 @@
 				"vidus" : 1.55763239875,
 				"hab_ppals" : 47.7024070022,
 				"hab_secund" : 52.2975929978,
-				"hab_buides" : 0
+				"hab_buides" : 0,
+				"cluster" : 2
 			}
 		}
 	]
