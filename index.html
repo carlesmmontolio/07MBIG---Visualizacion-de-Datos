@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<script src="https://code.highcharts.com/maps/highmaps.js"></script>
+<script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/mapdata/custom/world-continents.js"></script>
+
+
+  </head>
+  <body>
+
+
+<h1> Seminario Visualización</h1>
+<b>Alumno:</b> Carles Martí Montolío <br>
+<b>Asignatura:</b> Visualización De Datos <br>
+<b>Profesor:</b> Raúl Reyero Díez <br>
+<b>Máster en Big Data y Data Science</b> Edición de abril 2020<br>
+<b>Fecha:</b> Noviembre de 2020 <br>
+<b> Enlace: </b> <a href='url'>https://seminario-cmmontolio.stackblitz.io </a>
+<h2>Introducción</h2>
+La intención del presente proyecto no es otra que la de realizar una descripción de los datos utilizados para los proyectos de las asignaturas de Data Mining y Estadística mediante la visualización de gráficas, así como de alguno resultados.<br>
+La finalidad principal del trabajo fue elaborar un mapa del municipio, con una clasificación de las secciones censales en función de si las condiciones de las mismas son óptimas o no a que un determinado partido obtenga buenos réditos electorales. Es decir, si en esa área geográfica existen posibilidades reales de obtener buenos resultados,independientemente de sí ya los ha obtenido o no, en función de si existe un patrón en los votantes. Es decir que se trató de estimar y validar un modelo de regresión explicativo del resultado electoral. Una vez el modelo validado se efectuo un cluster con 5 grupos mediante las variables seleccionadas en la regresión. Si bien, el procesamiento en R no será mostrado, pero sí sus resultado en forma de gráficas.<br>
+El municipio escogido fue Torrente, un municipio de la Comunidad Valenciana próximo a Valencia y el partido escogido para el análisis fue Compromís, no por una filiación política, si no porque en el pasado he trabajado haciendo este tipo de análisis con ellos.<br>
+Se irá poco a poco describiendo los datos que fueron elegidos para ser introducidos en el análisis, todos ellos en porcentajes.
+
+<h2> Mapa de Torrente y distribución del voto </h2>
+Lo primero y fundamental es graficar el municipio de Torrente. Se aprovechará para que en esta visualización se vea también como el voto de Torrente fue distribuído por el municipio, mediante sus secciones censales. Dada mi formación -vengo del ámbito de la Geomática y del GIS- lo más habitual hubiera sido utilizar librerías de mapas como Open Layers. No obstante, quería ver hasta dónde podía llegar el software Tableau en la representación de mapas y fue por ello que elegí hacerlo con esta herramienta. Se inserta la imagen extraída:
+
+<a href="https://ibb.co/5v3qVM1"><img src="https://i.ibb.co/0ZLP3Dn/mapa-Torrent.png" alt="mapa-Torrent" border="0"></a>
+
+<h2> Datos electorales </h2>
+
+A continuación se muestran los datos electorales de cada uno de los partidos por secciones censales. Estos datos proceden del Ministerio de Interior y son del años 2015. Se elige hacerlo con Google Sheets con gráficas de barras juntas. Como se puede ver el resultado no es del todo óptimo, puesto que hay demasiadas secciones censales y puede que no sea del todo claro.<br>
+
+<iframe width="1012" height="626" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSvBUKPms6xh24PJ4Wk3J60TDe2-sgrg948ZhawfBn3RHFLm6gyqT6LImbIPkNhoGmOXQYiK7oIpyDW/pubchart?oid=679401540&amp;format=interactive"></iframe> <br>
+
+Se puede ver que las barras no llegan al 100%, pero esto ocurre porque no están representados los votos en blanco ni los nulos. Para hacernos una idea global del municipio hacemos otro gráfico. Si bien los gráficos de tipo tarta o donut no son los mejores para hacer comparaciones y sí las barras, en cuanto a resultados electorales es lo más habitual. Por ello se decide por este gráfico para representar el cómputo total del municipio. También se efectúa por Google Sheets. <br>
+
+<iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSvBUKPms6xh24PJ4Wk3J60TDe2-sgrg948ZhawfBn3RHFLm6gyqT6LImbIPkNhoGmOXQYiK7oIpyDW/pubchart?oid=277091062&amp;format=interactive"></iframe> <br>
+
+<h2> Nivel de estudios </h2>
+También se utilizarón datos del nivel de estudios de la población del municipio. Estos datos son del INE. Es un dato del que también se dispone por sección censal aunque aquí se va a describir de manera general, como con el resto de datos. Se utiliza un diagrama de columnas también con Google Sheets.<br>
+
+<iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSvBUKPms6xh24PJ4Wk3J60TDe2-sgrg948ZhawfBn3RHFLm6gyqT6LImbIPkNhoGmOXQYiK7oIpyDW/pubchart?oid=1069174821&amp;format=interactive"></iframe>
+
+<h2> Migración </h2>
+
+Se muestran ahora los datos totales de inmigración del municipio. Se extraen del portal http://datosabiertos.torrent.es/es/. Para ser más claros se visualiza un mapa interactivo por continentes mediante HighCharts para que de un vistazo de pueda ver de dónde procede el mayor porcentaje de inmigración.<br>
+
+<div id="inmi"></div>
+
+Asímismo se muestra una gráfica de barras para visualizar el origen de las personas no extranjeras. <br>
+
+<iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSvBUKPms6xh24PJ4Wk3J60TDe2-sgrg948ZhawfBn3RHFLm6gyqT6LImbIPkNhoGmOXQYiK7oIpyDW/pubchart?oid=1883105172&amp;format=interactive"></iframe>
+
+<h2> Demografía </h2>
+Estos datos son obtenidos del mismo portal que el anterior. Está representados en 4 grandes grupos: Jóvenes (menores de 16 años), Adultos Jóvenes (de 16 a 40 años), Adultos Mayores (de 40 a 64 años) y Ancianos (mayores de 64 años). Todos ellos divididos entre hombres y mujeres. Se efectúa una pirámide poblacional con Google Sheets, ya que es lo más adecuado para representar este tipo de datos. Para hacer esto, he puesto a negativo los valores de los hombres para obtener la aparencia de una pirámide poblacional en una gráfica de barras horizontal.
+
+<iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSvBUKPms6xh24PJ4Wk3J60TDe2-sgrg948ZhawfBn3RHFLm6gyqT6LImbIPkNhoGmOXQYiK7oIpyDW/pubchart?oid=351599970&amp;format=interactive"></iframe>
+
+<h2>Regresión </h2>
+Tras amalizar el voto de Compromís con todas las variables incluyendo las electorales se obtiene que las variables escogidas en una regresión son: el voto del PP, el voto al PSOE, la población anciana femenina y la población española. Así pues, vamos a ver estas variables en un DashBoard de Tableau, viendo la gráfica de caja y bigotes y gráficas de correlación con la variable del voto a Compromís:<br>
+
+<a href="https://ibb.co/35b6MXW"><img src="https://i.ibb.co/1YNydVK/Correlaciones.png" alt="Correlaciones" border="0"></a>
+
+<a href="https://ibb.co/7k77B46"><img src="https://i.ibb.co/41BBCd5/Caja-y-Bigotes.png" alt="Caja-y-Bigotes" border="0"></a>
+
+<h2>Cluster</h2>
+Tras la regresión se propone hacer un Kmeans utilizando las variables escogidas por la regresión. Así se obtendrá un mapa dividido en clusters (5) en función de estas variables que son las mejores para explicar el voto a Compromís. De esta manera nos ayudará a saber dónde, potencialmente, este partido puede llegar a ser más fuerte. El mapa final se puede ver a continuación hecho en Tableau:<br>
+<a href="https://ibb.co/wLZRz21"><img src="https://i.ibb.co/TTDkgN5/mapa-Torrent2.png" alt="mapa-Torrent2" border="0"></a> <br>
+
+El número de la leyenda significa simplemente el número al cluster que pertenece. Los colores, con una representación del semáforo, representan la potencialidad del voto: Verde oscuro Muy Buena, Verde Claro Buena, Amarillo Regular, Naranja Mala y Rojo Muy Mala.
+
+
+<script type="text/javascript">
+</script>
+  </body>
+</html>
